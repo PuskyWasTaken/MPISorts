@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Bitonic">
+      <UniqueIdentifier>{c7f078a7-ace0-46cf-86b2-1d687db089df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Direct">
+      <UniqueIdentifier>{cfeef216-14a9-4294-b679-ceec24678603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ranking">
+      <UniqueIdentifier>{a8654433-26f4-4d8e-8fcd-2568f74c3e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bucket">
+      <UniqueIdentifier>{fa9e28e4-1457-46f5-83a6-7d96ba90e634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OddEven">
+      <UniqueIdentifier>{997c1ff5-8aa2-4277-9204-d8809927ca55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{1aeb2313-e349-4031-bb56-08c976438f38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitonic.cpp">
+      <Filter>Source Files\Bitonic</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="direct.cpp">
+      <Filter>Source Files\Direct</Filter>
+    </ClCompile>
+    <ClCompile Include="rank.cpp">
+      <Filter>Source Files\Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="bucket.cpp">
+      <Filter>Source Files\Bucket</Filter>
+    </ClCompile>
+    <ClCompile Include="oddEven.cpp">
+      <Filter>Source Files\OddEven</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitonic.h">
+      <Filter>Source Files\Bitonic</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="direct.h">
+      <Filter>Source Files\Direct</Filter>
+    </ClInclude>
+    <ClInclude Include="rank.h">
+      <Filter>Source Files\Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="bucket.h">
+      <Filter>Source Files\Bucket</Filter>
+    </ClInclude>
+    <ClInclude Include="oddEven.h">
+      <Filter>Source Files\OddEven</Filter>
+    </ClInclude>
+    <ClInclude Include="SortOption.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
